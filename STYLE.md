@@ -60,14 +60,14 @@ Constructor initializer lists can be all on one line or with subsequent lines in
 
 There are two acceptable formats for initializer lists:
 
-```
+```cpp
 // When it all fits on one line:
 MyClass::MyClass(int var) : some_var_(var), some_other_var_(var + 1) {}
 ```
 
 or
 
-```
+```cpp
 // When it requires multiple lines, indent 1 tab, putting the colon on the first
 // initializer line:
 MyClass::MyClass(int var)
@@ -78,4 +78,4 @@ MyClass::MyClass(int var)
 	DoSomething();
 	...
 }
-``
+```
